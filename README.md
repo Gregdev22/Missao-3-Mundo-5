@@ -10,25 +10,22 @@
 * DESENVOLVIMENTO FULL STACK- 
 * Disciplina: RPG0033  - TRATANDO A IMENSIDÃO DOS DADOS
 * Semestre Letivo: 2024.2
-* Repositorio Git: https://github.com/Gregdev22/Missao-5-Mundo-4
+* Repositorio Git:https://github.com/Gregdev22/Missao-3-Mundo-5
 
 <hr>
 
 * [EMERSON GREGORIO ALVES](https://github.com/Gregdev22) - MATRICULA: 2022.0908.4986
 <hr>
- <h1 align="center"> Missão Prática | Nível 5 | Mundo 4 </h1>
- <h2 align="left" >  Vamos interligar as coisas com a nuvem </h2> 
- <h3>Microatividade 1: Como Criar um Hub IoT do Azure </h3>
- <h3>Microatividade 2: Como registrar um novo dispositivo no Hub IoT </h3>
- <h3>Microatividade 3: Conectar o simulador online Raspberry Pi ao Hub IoT do Azure </h3>
- <h3>Microatividade 4: Adicionando extensão Hub IoT do Azure para Visual Studio Code </h3>
- <h3>Microatividade 5: Gerenciando e interagindo com o Hub IoT </h3>
+ <h1 align="center"> Missão Prática | Nível 3 | Mundo 5 </h1>
+ <h2 align="left" > TRATANDO A IMENSIDÃO DOS DADOS </h2> 
  <hr>
-
+ 
  <h2> :clipboard: Objetivos da Prática </h2>
 
-* Como criar um Hub IoT do Azure;
-* Como registrar um novo dispositivo no Hub IoT;
-* Adicionando extensão Hub IoT do Azure para Visual Studio Code;
-* Gerenciando e interagindo com o Hub IoT .
+* Descrever como ler um arquivo CSV usando a biblioteca Pandas (Python);
+* Descrever como criar um subconjunto de dados a partir de um conjunto existente usando a biblioteca Pandas (Python);
+* Descrever como configurar o número máximo de linhas a serem exibidas na visualização de um conjunto de dados usando a biblioteca Pandas (Python);
+*Descrever como exibir as primeiras e últimas “N” linhas de um conjunto de dados usando a biblioteca Pandas (Python); Descrever como exibir informações gerais
+sobre as colunas, linhas e dados de um conjunto de dados usando a biblioteca Pandas (Python);
+
 <hr>

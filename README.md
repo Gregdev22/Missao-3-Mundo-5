@@ -31,7 +31,8 @@ sobre as colunas, linhas e dados de um conjunto de dados usando a biblioteca Pan
 <hr>
 <h2> Códigos </h2>
 
-# As atividades foram desenvolvidas no Google Colab. Segue cópia do Notebook e do arquivo .csv na documentação.
+# As atividades foram desenvolvidas no Google Colab.
+https://github.com/Gregdev22/Missao-3-Mundo-5/blob/main/MP_NV3.ipynb
 
 ``` Python
 [1] pip install pandas

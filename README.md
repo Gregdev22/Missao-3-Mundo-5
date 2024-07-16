@@ -34,14 +34,14 @@ sobre as colunas, linhas e dados de um conjunto de dados usando a biblioteca Pan
 # As atividades foram desenvolvidas no Google Colab. Segue cópia do Notebook e do arquivo .csv na documentação.
 
 ``` Python
-pip install pandas
+[1] pip install pandas
 
-import pandas as pd
+[2] import pandas as pd
 
-df = pd.read_csv('/content/drive/MyDrive/MP N3.csv', sep=';')
-display(df)
-df.head(4)
-df.tail(4)
+[3] df = pd.read_csv('/content/drive/MyDrive/MP N3.csv', sep=';')
+    display(df)
+    df.head(4)
+    df.tail(4)
 
 Out:
 ID	Duration	Date	Pulse	Maxpulse	Calories
@@ -90,10 +90,9 @@ ID	Duration	Date	Pulse	Maxpulse	Calories
 30	30	60	'2020/12/30'	102	129	3803.0
 31	31	60	'2020/12/31'	92	115	2430.0
 
-
-df_copia = df.copy()
-df_copia['Calories'] = df_copia['Calories'].fillna(0)
-display(df_copia)
+[4] df_copia = df.copy()
+    df_copia['Calories'] = df_copia['Calories'].fillna(0)
+    display(df_copia)
 
 Out:
 
@@ -131,8 +130,8 @@ ID	Duration	Date	Pulse	Maxpulse	Calories
 30	30	60	'2020/12/30'	102	129	3803.0
 31	31	60	'2020/12/31'	92	115	2430.0
 
-df_copia['Date'] = df_copia['Date'].fillna('1900/01/01')
-display(df_copia)
+[5] df_copia['Date'] = df_copia['Date'].fillna('1900/01/01')
+    display(df_copia)
 
 Out:
 
@@ -170,8 +169,8 @@ Out:
 30	30	60	'2020/12/30'	102	129	3803.0
 31	31	60	'2020/12/31'	92	115	2430.0
 
-df_copia['Date'] = pd.to_datetime(df_copia['Date'])
-display(df_copia)
+[6] df_copia['Date'] = pd.to_datetime(df_copia['Date'])
+    display(df_copia)
 
 Out:
 
@@ -189,8 +188,8 @@ ValueError: time data "1900/01/01" doesn't match format "'%Y/%m/%d'", at positio
     - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 
-df_copia['Date'] = df_copia['Date'].replace('1900/01/01','NaN')
-display(df_copia)
+[7] df_copia['Date'] = df_copia['Date'].replace('1900/01/01','NaN')
+    display(df_copia)
 
 Out:
 
@@ -228,8 +227,8 @@ ID	Duration	Date	Pulse	Maxpulse	Calories
 30	30	60	'2020/12/30'	102	129	3803.0
 31	31	60	'2020/12/31'	92	115	2430.0
 
-df_copia['Date'] = pd.to_datetime(df_copia['Date'])
-display(df_copia)
+[8] df_copia['Date'] = pd.to_datetime(df_copia['Date'])
+    display(df_copia)
 
 Out:
 
@@ -248,9 +247,9 @@ ValueError: time data "20201226" doesn't match format "'%Y/%m/%d'", at position 
     - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
 
 
-df_copia['Date'] = df_copia['Date'].replace('20201226',"'2020/12/26'")
-df_copia['Date'] = pd.to_datetime(df_copia['Date'])
-display(df_copia)
+[9] df_copia['Date'] = df_copia['Date'].replace('20201226',"'2020/12/26'")
+    df_copia['Date'] = pd.to_datetime(df_copia['Date'])
+    display(df_copia)
 
 Out:
 
@@ -288,9 +287,9 @@ ID	Duration	Date	Pulse	Maxpulse	Calories
 30	30	60	2020-12-30	102	129	3803.0
 31	31	60	2020-12-31	92	115	2430.0
 
-df_copia.dropna(inplace=True)
+[10] df_copia.dropna(inplace=True)
 
-display(df_copia)
+[11] display(df_copia)
 
 Out:
 

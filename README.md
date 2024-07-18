@@ -29,6 +29,16 @@
 sobre as colunas, linhas e dados de um conjunto de dados usando a biblioteca Pandas (Python);
 
 <hr>
+
+<h2> Contextualização </h2>
+
+Como Analista de Dados, você recebeu, em um novo projeto, um conjunto de
+dados. Sua principal tarefa é tratar os dados desse conjunto a fim de que possam
+ser utilizados para a descoberta de conhecimento através de sua posterior
+análise e interpretação. Para tal tarefa, você deverá utilizar a linguagem Python e
+a biblioteca Pandas.
+<hr>
+
 <h2> Códigos </h2>
 
 # As atividades foram desenvolvidas no Google Colab.
